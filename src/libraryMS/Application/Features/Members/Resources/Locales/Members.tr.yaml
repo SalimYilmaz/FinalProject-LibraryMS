@@ -1,0 +1,5 @@
+MemberNotExists: "Kullanýcý bulunamadý."
+MemberNameAndSurnameAlreadyExists: "Bu isim ve soyisime sahip bir kullanýcý zaten mevcut."
+PhoneNumberAlreadyExists: "Bu telefon numarasý zaten mevcut."
+EmailAlreadyExists: "Bu email adresi zaten mevcut."
+PasswordDontMatch: "Þifre eþleþmiyor."

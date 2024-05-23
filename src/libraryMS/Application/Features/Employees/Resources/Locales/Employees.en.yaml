@@ -1,0 +1,4 @@
+EmployeeNotExists: "Employee don't exists."
+NationalIdAlreadyExists: "Employee National ID already exists"
+PhoneNumberAlreadyExists: "Employee phone number already exists"
+EmailAlreadyExists: "Employee email already exists"

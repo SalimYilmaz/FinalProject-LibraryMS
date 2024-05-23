@@ -1,0 +1,3 @@
+LibraryNotExists: "Library not exists."
+NameAlreadyExists: "Library name already exists."
+PhoneNumberAlreadyExists: "Library phone number already exists."

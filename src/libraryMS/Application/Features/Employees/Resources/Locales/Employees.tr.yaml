@@ -1,0 +1,4 @@
+EmployeeNotExists: "Çalýþan bulunamadý."
+NationalIdAlreadyExists: "Çalýþan kimlik numarasý zaten mevcut."
+PhoneNumberAlreadyExists: "Çalýþan telefon numarasý zaten mevcut."
+EmailAlreadyExists: "Çalýþan email adresi zaten mevcut."

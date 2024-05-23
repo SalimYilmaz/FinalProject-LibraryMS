@@ -1,0 +1,5 @@
+MemberNotExists: "Member don't exists."
+MemberNameAndSurnameAlreadyExists: "Member name and surname already exists."
+PhoneNumberAlreadyExists: "Phone number already exists."
+EmailAlreadyExists: "Email address already exists."
+PasswordDontMatch: "Password don't match."

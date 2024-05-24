@@ -41,7 +41,7 @@ public class CreatePublisherCommand : IRequest<CreatedPublisherResponse>, ICache
         public async Task<CreatedPublisherResponse> Handle(CreatePublisherCommand request, CancellationToken cancellationToken)
         {
             Publisher publisher = _mapper.Map<Publisher>(request);
-            await _publisherBusinessRules.CheckIfPhoneExists(publisher.PhoneNumber, cancellationToken);
+            await _publisherBusinessRules.CheckIfPhoneNumberAlreadyExists(publisher.PhoneNumber, cancellationToken);
             await _publisherRepository.AddAsync(publisher);
 
             CreatedPublisherResponse response = _mapper.Map<CreatedPublisherResponse>(publisher);

@@ -40,7 +40,7 @@ public class PublisherBusinessRules : BaseBusinessRules
         await PublisherShouldExistWhenSelected(publisher);
     }
 
-    public async Task CheckIfPhoneExists(string phoneNumber, CancellationToken cancellationToken)
+    public async Task CheckIfPhoneNumberAlreadyExists(string phoneNumber, CancellationToken cancellationToken)
     {
         Publisher? existsPhoneNumber = await _publisherRepository.GetAsync(
             predicate: p => p.PhoneNumber.Equals(phoneNumber),
